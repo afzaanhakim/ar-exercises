@@ -19,5 +19,5 @@ annual_revenue: 190000,
 mens_apparel: true,
 womens_apparel: false)
 
-puts Store.count
+
 

@@ -11,5 +11,4 @@ puts "----------"
 
 @store1.name = "Updated Store"
 
-puts @store1.inspect
-puts @store2.inspect
+
