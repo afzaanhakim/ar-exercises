@@ -14,10 +14,10 @@ puts "Please put a store name"
 new_name = gets.chomp
 
 
- new = Store.create(name: new_name)
+new = Store.create(name: new_name)
 
- puts new.inspect
+puts new.inspect
 
- new.errors.each do |error, message| 
+new.errors.each do |error, message| 
   puts "this is err: #{error}", "this is message: #{message}"
- end
+end
